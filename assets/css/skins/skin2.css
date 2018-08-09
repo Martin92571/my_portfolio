@@ -1,0 +1,42 @@
+.btn-accent {
+  background-color: #e29700;
+  border-color: #e29700;
+  color: #fff; }
+  .btn-accent:hover, .btn-accent:focus {
+    background-color: #d89000;
+    border-color: #e29700;
+    color: #fff; }
+  .btn-accent.btn-animated:hover, .btn-accent.btn-animated:focus {
+    background-color: #e29700; }
+
+.navbar-nav > li.active > a:before {
+  background: #e29700; }
+
+.section-heading .intro {
+  color: #e29700; }
+
+.heading-title {
+  color: #e29700; }
+
+a {
+  color: #e29700; }
+  a:hover, a:focus {
+    color: #c98600; }
+
+.service-item .service-name {
+  color: #e29700; }
+
+.fact i {
+  color: #e29700; }
+
+.portfolio-item .overlay {
+  background-color: #e29700; }
+
+.pricing-table .triangle {
+  border-top-color: #e29700; }
+
+.blog-post .title a,
+.blog-post .more {
+  color: #e29700; }
+
+/*# sourceMappingURL=skin2.css.map */

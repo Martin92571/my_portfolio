@@ -1,0 +1,42 @@
+.btn-accent {
+  background-color: #5a6ac5;
+  border-color: #5a6ac5;
+  color: #fff; }
+  .btn-accent:hover, .btn-accent:focus {
+    background-color: #5263c2;
+    border-color: #5a6ac5;
+    color: #fff; }
+  .btn-accent.btn-animated:hover, .btn-accent.btn-animated:focus {
+    background-color: #5a6ac5; }
+
+.navbar-nav > li.active > a:before {
+  background: #5a6ac5; }
+
+.section-heading .intro {
+  color: #5a6ac5; }
+
+.heading-title {
+  color: #5a6ac5; }
+
+a {
+  color: #5a6ac5; }
+  a:hover, a:focus {
+    color: #4759be; }
+
+.service-item .service-name {
+  color: #5a6ac5; }
+
+.fact i {
+  color: #5a6ac5; }
+
+.portfolio-item .overlay {
+  background-color: #5a6ac5; }
+
+.pricing-table .triangle {
+  border-top-color: #5a6ac5; }
+
+.blog-post .title a,
+.blog-post .more {
+  color: #5a6ac5; }
+
+/*# sourceMappingURL=skin3.css.map */

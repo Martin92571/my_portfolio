@@ -1,0 +1,42 @@
+.btn-accent {
+  background-color: #b7436d;
+  border-color: #b7436d;
+  color: #fff; }
+  .btn-accent:hover, .btn-accent:focus {
+    background-color: #b04069;
+    border-color: #b7436d;
+    color: #fff; }
+  .btn-accent.btn-animated:hover, .btn-accent.btn-animated:focus {
+    background-color: #b7436d; }
+
+.navbar-nav > li.active > a:before {
+  background: #b7436d; }
+
+.section-heading .intro {
+  color: #b7436d; }
+
+.heading-title {
+  color: #b7436d; }
+
+a {
+  color: #b7436d; }
+  a:hover, a:focus {
+    color: #a43c62; }
+
+.service-item .service-name {
+  color: #b7436d; }
+
+.fact i {
+  color: #b7436d; }
+
+.portfolio-item .overlay {
+  background-color: #b7436d; }
+
+.pricing-table .triangle {
+  border-top-color: #b7436d; }
+
+.blog-post .title a,
+.blog-post .more {
+  color: #b7436d; }
+
+/*# sourceMappingURL=skin1.css.map */

@@ -1,0 +1,78 @@
+// Skin styles
+
+.btn-accent {
+	background-color: $color-accent;
+	border-color: $color-accent;
+	color: #fff;
+
+	&:hover,
+	&:focus {
+		background-color: darken($color-accent, 2%);
+		border-color: $color-accent;
+		color: #fff;
+	}
+
+	&.btn-animated {
+		&:hover,
+		&:focus {
+			background-color: $color-accent;
+		}
+	}
+}
+
+.navbar-nav > li.active > a:before {
+	background: $color-accent
+}
+
+.section-heading .intro {
+	color: $color-accent;
+}
+
+.heading-title {
+	color: $color-accent;
+}
+
+a {
+	color: $color-accent;
+
+	&:hover,
+	&:focus {
+		color: darken($color-accent, 5%);
+	}
+}
+
+.service-item .service-name {
+	color: $color-accent;
+}
+
+.fact i {
+	color: $color-accent;
+}
+
+.portfolio-item .overlay {
+	background-color: $color-accent;
+}
+
+.pricing-table .triangle {
+	border-top-color: $color-accent;
+}
+
+.blog-post .title a,
+.blog-post .more {
+	color: $color-accent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

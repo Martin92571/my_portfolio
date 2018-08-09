@@ -1,0 +1,57 @@
+/*--------------------- 
+ * Typography
+ *--------------------- */
+
+.section-heading {
+	text-align: center;
+
+	.intro {
+		color: $color-accent;
+		font-size: 18px;
+	}
+
+	.heading {
+		font-size: 48px;
+		font-weight: 300;
+	}
+
+	.subheading {
+		color: $color-muted;
+		font-size: 18px;
+		line-height: 1.6;
+		margin-top: 5px;
+		margin-bottom: 0;
+	}
+
+	.separator {
+		display: block;
+		margin: 50px 0;
+		font-size: 150%;
+		color: $color-muted;
+	}
+
+	&.left {
+		padding-right: 30px;
+		text-align: left;
+	}
+
+	@include max-screen($break-small) {
+		&.left {
+			padding-right: 0;
+			text-align: center;
+		}
+	}
+}
+
+.heading-title {
+	font-size: 24px;
+	font-weight: 300;
+	margin-bottom: 12px;
+	color: $color-accent;
+}
+
+.text-muted {
+	color: $color-muted;
+}
+
+

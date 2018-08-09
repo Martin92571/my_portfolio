@@ -1,0 +1,108 @@
+/*--------------------- 
+ * General  
+ *--------------------- */
+
+body {
+	font-family: $font-body;
+	font-size: $font-size;
+	color: $font-color;
+	line-height: 1.9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-heading;
+	margin: 0;
+}
+
+p {
+	margin-bottom: 25px;
+}
+
+section {
+	background-color: #fff;
+}
+
+a {
+	@include transition(all .3s);
+
+	color: $color-accent;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: darken($color-accent, 5%);
+	}
+}
+
+footer {
+	padding: 40px 0;
+	background-color: #3B3B3B;
+}
+
+@include max-screen($break-medium) {
+	div.row > .section-col {
+		margin-bottom: 50px;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+}
+
+.copyright {
+	margin: 0;
+	font-size: 14px;
+	color: #A0A0A0;
+	text-align: center;
+}
+
+.vmargin-3x {
+	margin: 30px 0;
+}
+
+.vmargin-5x {
+	margin: 50px 0;
+}
+
+.vpadding-5x {
+	padding: 50px 0;
+}
+
+.vpadding-8x {
+	padding: 80px 0;
+}
+
+.margin-top-3x {
+	margin-top: 30px;
+}
+
+.margin-bottom-3x {
+	margin-bottom: 30px;
+}
+
+.margin-top-5x {
+	margin-top: 50px;
+}
+
+.margin-bottom-5x {
+	margin-bottom: 50px;
+}
+
+.padding-bottom-5x {
+	padding-bottom: 50px;
+}
+
+.padding-top-5x {
+	padding-top: 50px;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0;
+}
+
+.light-gray {
+	background-color: #F9F9F9;
+}
+
+
