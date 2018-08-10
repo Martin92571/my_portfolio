@@ -117,6 +117,15 @@ button,
 		}
 	}
 }
+.service-item i {
+    font-size: 8em;
+
+    position: relative;
+    top: 15px;
+    right: 0;
+    color: inherit;
+    z-index: 0;
+}
 
 /* about */
 .list-company-values {
@@ -235,53 +244,7 @@ button,
 	}
 }
 
-/* services */
-.service-item {
-	position: relative;
-	margin-bottom: 60px;
 
-	.service-name {
-		margin-bottom: 10px;
-		position: relative;
-		font-size: 32px;
-		font-weight: 300;
-		color: $color-accent;
-		z-index: 1;
-	}
-
-	.service-description {
-		position: relative;
-		margin-bottom: 0;
-		z-index: 1;
-	}
-
-	i {
-		font-size: 8em;
-		color: #f5f5f5;
-		position: absolute;
-		top: 15px;
-		right: 0;
-		z-index: 0;
-	}
-}
-
-.last-row {
-	.service-item {
-		margin-bottom: 0;
-	}
-
-	@include max-screen($break-small) {
-		.service-item {
-			margin-bottom: 60px;
-		}
-
-		.last-item {
-			margin-bottom: 0;
-		}
-	}
-}
-
-/* fact metric */
 .fact {
 	text-align: center;
 
