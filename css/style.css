@@ -191,6 +191,7 @@ p {
   padding: 0 !important;
   position: relative;
   overflow: hidden;
+  
 }
 .navbar-default .navbar-nav > li > a:after {
   content: '';
@@ -953,7 +954,7 @@ footer p {
   .navbar-default .navbar-nav > li > a {
     padding-bottom: 0 !important;
     color: #111 !important;
-    display: inline-block;
+    display: inline;
   }
   .navbar-default .navbar-collapse {
     text-align: center;
