@@ -206,7 +206,7 @@ hr{
 .btn-dc.btn-main-color:hover,
 .btn-dc.btn-main-color:focus{
 	color: #00CCCB;
-} */ */
+} */ 
 
 /*-----------------------
 ---- Preloader Styles ----
@@ -1263,24 +1263,12 @@ hr{
 /*-----------------------
 ---- Contact Styles  ----
 -------------------------*/
-/* /* 
-#contact{
+/* #contact-div{
 	position: relative;
 	background: url(../images/map.jpg) center center no-repeat; 
-} */
+}  */
 
-.color-overlay:before{
-	position: absolute;
-	display: block;
-	content: "";
-	width:100%;
-	height:100%;
-	top:0;
-	left:0;
-	background: #07141f;
-	opacity:.9;
-	z-index: 1;
-}
+
 
 #contact .container{
 	position: relative;
@@ -1292,7 +1280,8 @@ hr{
 }
 
 #contact p{
-	font-size: 22pxpx;
+	font-size: 22px;
+	color: #000000;
 	
 }
 
@@ -1329,7 +1318,7 @@ hr{
 }
 
 #contact .social-links a:hover .fa{
-	color:#00CCCB !important;
+	color:#0DB826 !important;
 }
 
 #contact-form .form-group{
@@ -1342,15 +1331,17 @@ hr{
 	font-size:18px;
 	line-height:24px;
 	font-weight:400;
-	color:#88949C;
+	columns: #000000;;
 	z-index: -1;
 	-webkit-transition: all .25s ease-out;
 	transition: all .25s ease-out;
 }
 
 #contact-form .form-control:focus + label{
-	top:-20px;
+	top:-22px;
 	color:#fff;
+	
+	text-shadow: 0px 0px 10px  #000000;
 }
 
 #contact-form .form-control.input-filled + label{
@@ -1372,7 +1363,7 @@ hr{
 }
 
 #contact-form .form-control:focus{
-	border-bottom: 2px solid #00CCCB;
+	border-bottom: 2px solid #0DB826;
 }
 
 #contact-form textarea{
@@ -1419,7 +1410,7 @@ hr{
 	margin-top: -30px;
 	padding: 0;
 	font-size: 21px;
-	color:#fff;
+	color:rgba(0,0,0);
 	background: none !important;
 	-webkit-transition: all .15s ease-out;
 	transition: all .15s ease-out;
@@ -1427,12 +1418,12 @@ hr{
 
 #contact-form .btn:hover,
 #contact-form .btn:active{
-	color:#00CCCB;
+	color:#0DB826;
 }
 
 #contact-form .form-group .error-message{
 	margin-left:8px;
-	color:#00CCCB;
+	color:rgb(170, 8, 8);
 }
 
 #contact-form{
@@ -1682,7 +1673,7 @@ hr{
 }
 
 @media (max-width:1499px){
-	
+/* 	
 	#home{
 		min-height:810px;
 		margin-bottom:-64px;
@@ -1696,7 +1687,7 @@ hr{
 	#home .row{
 		top:12%;
 	}
-	
+	 */
 	.skills .plus-symbol:after,
 	.skills .equal-symbol:after{
 		right:-60px;
@@ -1708,7 +1699,7 @@ hr{
 	.push-down{
 		margin-top:60px;
 	}
-			
+/* 			
 	#home{
 		min-height:768px;
 		margin-bottom:-64px;
@@ -1726,7 +1717,7 @@ hr{
 	#home .header-img{
 		width:800px;
 		margin-left:-400px;
-	}
+	} */
 	
 	.service-item{
 		padding:0 15px;
@@ -1743,7 +1734,7 @@ hr{
 		margin-top:0;
 	}
 		
-	#home{
+	/* #home{
 		min-height:810px;
 		margin-bottom:-64px;
 	}
@@ -1760,7 +1751,7 @@ hr{
 	#home .header-img{
 		width:760px;
 		margin-left:-380px;
-	}
+	} */
 
 	.service-item .service-icon{
 		width:150px;
@@ -1855,7 +1846,7 @@ hr{
 	.icon-bar{
 		background: #39444C;
 	}
-	
+/* 	
 	#main-nav .container, #main-nav.scrolled .container{
 		padding-top:5px;
 		padding-bottom:5px;
@@ -1903,12 +1894,12 @@ hr{
 	#home .row{
 		top:80px;
 	}
-	
+/* 	
 	#home h1{
 		font-size: 42px;
-	}
+	} */
 
-	#home h2{
+	/* #home h2{
 		font-size: 21px;
 	}
 	
@@ -1917,7 +1908,7 @@ hr{
 		left:0;
 		margin-left:0;
 	}
-	
+	 */ 
 	.btn-group{
 		margin-bottom: 40px;
 	}

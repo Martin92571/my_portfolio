@@ -231,47 +231,47 @@ jQuery( function() {
 	}
 
 	// AJAX contact form
-	$('#contact-form').parsley();
+	// $('#contact-form').parsley();
 
-	$('#contact-form').submit( function(e) {
-		e.preventDefault();
+	// $('#contact-form').submit( function(e) {
+	// 	e.preventDefault();
 
-		if( !$(this).parsley('isValid') )
-			return;
+	// 	if( !$(this).parsley('isValid') )
+	// 		return;
 
-		$theForm = $(this);
-		$btn = $(this).find('#submit-button');
-		$btnText = $btn.text();
-		$(this).parent().append('<div class="alert"></div>');
-		$alert = $(this).parent().find('.alert');
+	// 	$theForm = $(this);
+	// 	$btn = $(this).find('#submit-button');
+	// 	$btnText = $btn.text();
+	// 	$(this).parent().append('<div class="alert"></div>');
+	// 	$alert = $(this).parent().find('.alert');
 
-		$btn.prop('disabled', true).text("Sending...");
+	// 	$btn.prop('disabled', true).text("Sending...");
 
-		$url = "php/contact.php";
+	// 	$url = "php/contact.php";
 
-		$attr = $(this).attr('action');
-		if (typeof $attr !== typeof undefined && $attr !== false) {
-			if($(this).attr('action') != '') $url = $(this).attr('action');
-		}
+	// 	$attr = $(this).attr('action');
+	// 	if (typeof $attr !== typeof undefined && $attr !== false) {
+	// 		if($(this).attr('action') != '') $url = $(this).attr('action');
+	// 	}
 
-		$.post($url, $(this).serialize(), function(data){
+	// 	$.post($url, $(this).serialize(), function(data){
 			
-			$message = data.message;
+	// 		$message = data.message;
 			
-			if( data.result == true ){
-				$theForm.slideUp('medium', function() {
-					$alert.removeClass('alert-danger');
-					$alert.addClass('alert-success').html($message).slideDown('medium');
-				});
-			}else {
-				$alert.addClass('alert-danger').html($message).slideDown('medium');
-			}
+	// 		if( data.result == true ){
+	// 			$theForm.slideUp('medium', function() {
+	// 				$alert.removeClass('alert-danger');
+	// 				$alert.addClass('alert-success').html($message).slideDown('medium');
+	// 			});
+	// 		}else {
+	// 			$alert.addClass('alert-danger').html($message).slideDown('medium');
+	// 		}
 
-			$btn.prop('disabled', false).find('span').text($btnText);
+	// 		$btn.prop('disabled', false).find('span').text($btnText);
 
-		})
-		.fail(function() { console.log('AJAX Error'); });
-	});
+	// 	})
+	// 	.fail(function() { console.log('AJAX Error'); });
+	// });
 });
 
 
