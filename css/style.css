@@ -442,6 +442,10 @@ p {
   word-spacing: 2px;
   font-size: 14px;
 }
+.clear{
+  clear: both !important;
+  margin-right:10px;
+}
 
 /* -------------------------------------------------------
                      Portfolio 
