@@ -938,6 +938,10 @@ footer p {
                     Responsive
 -------------------------------------------------------- */
 @media screen and (max-width: 767px) {
+  .clear{
+    clear: none !important;
+    margin-right:0px;
+    }
   .navbar-default .logo {
     margin-left: 20px;
   }
