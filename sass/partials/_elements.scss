@@ -93,8 +93,9 @@ button,
 	&,
 	&:hover,
 	&:focus {
-		color: #fff;
-		border-color: #fff;
+		color: #000;
+    border-color: #fff;
+    background-color: rgba(244,244,244);
 	}
 }
 

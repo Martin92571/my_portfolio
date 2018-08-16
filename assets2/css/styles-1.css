@@ -194,14 +194,15 @@ hr{
 	margin-left:15px;
 	opacity:1;
 }
-
+*/
 .btn-white,
 .btn-white:hover,
 .btn-white:focus{
-	color:#fff;
-	border-color:#fff;
+	color: #000;
+    
+    background-color: rgba(244,244,244);
 }
-
+/*
 .btn-dc.btn-main-color,
 .btn-dc.btn-main-color:hover,
 .btn-dc.btn-main-color:focus{
@@ -1339,7 +1340,7 @@ hr{
 	top:-22px;
 	color:#fff;
 	
-	text-shadow: 0px 0px 10px  #000000;
+	text-shadow: 0px 0px 5px  #000000;
 }
 
 #contact-form .form-control.input-filled + label{
@@ -1417,6 +1418,7 @@ hr{
 #contact-form .btn:hover,
 #contact-form .btn:active{
 	color:#0DB826;
+	
 }
 
 #contact-form .form-group .error-message{
