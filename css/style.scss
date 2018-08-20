@@ -389,8 +389,10 @@ p{
 .hero{
 
 	.hero-img{
-		padding: 0 0 0 30px;
 		position: relative;
+		border-radius: 30px;
+		overflow: hidden;
+	
 
 		&:after{
 			content: '';

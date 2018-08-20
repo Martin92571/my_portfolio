@@ -1280,7 +1280,7 @@ hr{
 
 #contact p{
 	font-size: 22px;
-	color: #000000;
+	color: #ffffff;
 	
 }
 
@@ -1409,15 +1409,17 @@ hr{
 	margin-top: -30px;
 	padding: 0;
 	font-size: 21px;
-	color:rgba(0,0,0);
+	color:rgba(255,255,255);
 	background: none !important;
 	-webkit-transition: all .15s ease-out;
 	transition: all .15s ease-out;
+	border:none;
 }
 
 #contact-form .btn:hover,
 #contact-form .btn:active{
 	color:#0DB826;
+	border:none;
 	
 }
 
@@ -1441,6 +1443,9 @@ hr{
 
 #contact-form .contact-form-message .fa{
 	margin-right: 5px;
+}
+#contact .form-control{
+	color:rgba(224,224,224);
 }
 /*----------------------
 ---- Footer Styles  ----
