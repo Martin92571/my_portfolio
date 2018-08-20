@@ -845,7 +845,8 @@ p {
 #contact{
   
 background-image: url('../img/portfolio/back6.jpg');
-background-size: 100%;
+background-size: cover;
+background-position: center;
 color:#fff;
 }
 #contact .section-title{
