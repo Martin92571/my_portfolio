@@ -1,16 +1,4 @@
 
-/*-----------------------------------------------------------------------------------
-
-    Theme Name: Daniels
-    Theme URI: http://
-    Description: Portfolio Onepage Template
-    Author: creativotheme
-    Author URI: http://themeforest.net/user/creativotheme
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
-
-
 /* ----------------------------------------------------------------
 
 TABLE OF CONTENTS
@@ -38,17 +26,7 @@ $(function() {
     var wind = $(window);
 
 
-    // scrollIt
-    $.scrollIt({
-      upKey: 38,                // key code to navigate to the next section
-      downKey: 40,              // key code to navigate to the previous section
-      easing: 'swing',         // the easing function for animation
-      scrollTime: 600,          // how long (in ms) the animation takes
-      activeClass: 'active',    // class given to the active nav element
-      onPageChange: null,       // function(pageIndex) that is called when page is changed
-      topOffset: -60            // offste (in px) for fixed top navigation
-    });
-
+    
 
     // close navbar-collapse when a  clicked
     $(".nav a").on('click', function () {
@@ -58,10 +36,10 @@ $(function() {
 
     // navbar scrolling background
     wind.on("scroll",function () {
-
+   
         var bodyScroll = wind.scrollTop(),
             navbar = $(".navbar-default"),
-            h_hight = $(".header").outerHeight();
+            h_hight = $(".header").outerHeight()-100;
 
         if(bodyScroll > h_hight){
 

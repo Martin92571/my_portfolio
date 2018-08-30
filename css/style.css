@@ -1,13 +1,4 @@
-/*-----------------------------------------------------------------------------------
 
-    Theme Name: Daniels
-    Theme URI: http://
-    Description: Portfolio Onepage Template
-    Author: creativotheme
-    Author URI: http://themeforest.net/user/creativotheme
-    Version: 1.0
-
------------------------------------------------------------------------------------*/
 /* ----------------------------------------------------------------
 
 TABLE OF CONTENTS
@@ -217,7 +208,7 @@ p {
 }
 .navbar-default .navbar-nav > li .active:after {
   width: 100%;
-  background-color: #0DB826;
+  
 }
 
 .nav-scroll {
@@ -349,7 +340,6 @@ p {
   position: absolute;
   left: 0px;
   bottom: -30px;
-  background-image: url(../img/dots.png);
   background-repeat: repeat;
   z-index: -1;
 }
@@ -411,6 +401,9 @@ p {
 }
 .adjust{
   margin-top:8em;
+}
+.aboutme{
+  margin-top:4em;
 }
 
 /* -------------------------------------------------------
@@ -958,6 +951,17 @@ footer p {
 /* -------------------------------------------------------
                     Responsive
 -------------------------------------------------------- */
+
+@media screen and (max-width: 1024px) {
+  .hero .hero-img {
+    
+    width: 75%;
+    margin: auto;
+  }
+  .aboutme {
+    margin-top: 4em !important;
+}
+}
 @media screen and (max-width: 767px) {
   .clear{
     clear: none !important;
@@ -1001,15 +1005,22 @@ footer p {
   .portfolio .items {
     width: 100%;
   }
+  .hero .hero-img{
+    margin:auto;
+  }
 }
 @media screen and (max-width: 991px) {
+  .aboutme{
+    margin-top:0.1em !important;
+
+  }
   .navbar-default .navbar-nav > li {
     margin: 25px 15px 0;
     font-size: 13px;
   }
 
   .hero .hero-img {
-    margin-bottom: 80px !important;
+    margin-bottom: -40px !important;
   }
 
   .side-bar {
