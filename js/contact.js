@@ -92,7 +92,7 @@ $(document).ready(function() {
 			request.fail(function(jqXHR, textStatus,errorThrown){
 				setTimeout(()=>{
 					$('#contact-form .contact-form-message').remove();
-				$('#contact-form').append('<p class="contact-form-message">'+'Failed To Send!'+'</p>');
+				$('#contact-form').append('<p style="color:rgb(170, 8, 8);font-weight:700;" class="contact-form-message">'+'Failed To Send!'+'</p>');
 				$('#contact-form').removeClass('clicked');
 				$('#contact-form')[0].reset();
 				$('#contact-form .form-control').removeClass('input-filled');
