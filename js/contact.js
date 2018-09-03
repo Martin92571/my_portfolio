@@ -75,7 +75,7 @@ $(document).ready(function() {
 				url: $(this).attr('action'),
 				type: "post",
 				data: formInput,
-				timeout:1000,
+				timeout:5000,
 			});
 		
 			// Callback handler that will be called on success
@@ -90,11 +90,13 @@ $(document).ready(function() {
 		
 			// Callback handler that will be called on failure
 			request.fail(function(jqXHR, textStatus,errorThrown){
-				$('#contact-form .contact-form-message').remove();
+				setTimeout(()=>{
+					$('#contact-form .contact-form-message').remove();
 				$('#contact-form').append('<p class="contact-form-message">'+'Failed To Send!'+'</p>');
 				$('#contact-form').removeClass('clicked');
 				$('#contact-form')[0].reset();
 				$('#contact-form .form-control').removeClass('input-filled');
+				},2000);
 				
 			});
 		
