@@ -96,7 +96,7 @@ $(document).ready(function() {
 				$('#contact-form').removeClass('clicked');
 				$('#contact-form')[0].reset();
 				$('#contact-form .form-control').removeClass('input-filled');
-				},2000);
+				},2100);
 				
 			});
 		
