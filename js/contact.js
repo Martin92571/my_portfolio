@@ -62,13 +62,43 @@ $(document).ready(function() {
 			$('#contact-form').append('<p class="contact-form-message"><i class="fa fa-spinner fa-pulse"></i>'+sendingMessage+'</p>');
 			
 			var formInput = $(this).serialize();
-			$.post($(this).attr('action'),formInput, function(data){
+			var request;
+			// $.post($(this).attr('action'),formInput, function(data){
+			// 	$('#contact-form .contact-form-message').remove();
+			// 	$('#contact-form').append('<p class="contact-form-message">'+okMessage+'</p>');
+			// 	$('#contact-form').removeClass('clicked');
+			// 	$('#contact-form')[0].reset();
+			// 	$('#contact-form .form-control').removeClass('input-filled');
+			// });
+			event.preventDefault()
+			request = $.ajax({
+				url: $(this).attr('action'),
+				type: "post",
+				data: formInput,
+				timeout:1000,
+			});
+		
+			// Callback handler that will be called on success
+			request.done(function (response, textStatus, jqXHR){
+				// Log a message to the console
 				$('#contact-form .contact-form-message').remove();
 				$('#contact-form').append('<p class="contact-form-message">'+okMessage+'</p>');
 				$('#contact-form').removeClass('clicked');
 				$('#contact-form')[0].reset();
 				$('#contact-form .form-control').removeClass('input-filled');
 			});
+		
+			// Callback handler that will be called on failure
+			request.fail(function(jqXHR, textStatus,errorThrown){
+				$('#contact-form .contact-form-message').remove();
+				$('#contact-form').append('<p class="contact-form-message">'+'Failed To Send!'+'</p>');
+				$('#contact-form').removeClass('clicked');
+				$('#contact-form')[0].reset();
+				$('#contact-form .form-control').removeClass('input-filled');
+				
+			});
+		
+		
 			
 		}
 		
