@@ -1317,17 +1317,7 @@ div[class*="col-"] > .input-group {
     .portfolio-item-filters li {
       padding: 0 5px; } }
 
-/* porfolio loading effect */
-.mfp-preloader {
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  height: 60px;
-  position: absolute;
-  text-indent: -9999px;
-  background-image: url("../img/loading-ripple.svg");
-  background-repeat: no-repeat;
-  background-position: center center; }
+
 
 /*--------------------- 
  * Typography
