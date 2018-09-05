@@ -97,8 +97,7 @@ $(document).ready(function() {
 					$('#contact-form .contact-form-message').remove();
 				$('#contact-form').append('<p style="color:rgb(170, 8, 8);font-weight:700;text-shadow: 0px 0px 5px black;" class="contact-form-message">'+'Failed To Send!'+'</p>');
 				$('#contact-form').removeClass('clicked');
-				$('#contact-form')[0].reset();
-				$('#contact-form .form-control').removeClass('input-filled');
+				
 				},2100);
 				
 			});
