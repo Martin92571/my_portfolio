@@ -1312,11 +1312,11 @@ hr{
 	padding: 0;
 }
 
-/*------------------------
+/* ------------------------
 ---Scrolling animations---
 -------------------------*/
 
-.scrollimation.fade-in{
+/* .scrollimation.fade-in{
 	opacity:0;
 	-webkit-transition:opacity 1.2s ease-out;
 	-o-transition:opacity 1.2s ease-out;
@@ -1488,7 +1488,7 @@ hr{
 	-webkit-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
-}
+} */
 /*----------------------
 ---- Media Queries  ----
 ------------------------*/
