@@ -146,6 +146,7 @@ p {
   border-radius: 5px;
   font-size: 13px;
   -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .buton:hover {
@@ -193,6 +194,7 @@ p {
   bottom: 0;
   left: 0;
   -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .navbar-default .navbar-nav > li {
@@ -223,6 +225,7 @@ p {
   left: 0;
   width: 100%;
   -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .nav-scroll .logo {
@@ -383,6 +386,7 @@ p {
   border-radius: 5px;
   background-color: #1c1c1c;
   -webkit-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
 }
 .hero .skills .skills-progress span:after {
@@ -430,6 +434,7 @@ p {
   background: #f4f4f4;
   border-radius: 50%;
   -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .services .item h6 {
@@ -475,6 +480,7 @@ p {
   left: 0;
   bottom: -5px;
   -webkit-transition: all .4s;
+  -o-transition: all .4s;
   transition: all .4s;
   z-index: -1;
 }
@@ -492,11 +498,13 @@ p {
 .portfolio .item-img:hover .item-img-overlay {
   opacity: 1;
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+          -ms-transform: translateY(0);
+      transform: translateY(0);
 }
 .portfolio .item-img:hover h6, .portfolio .item-img:hover .icons {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+          -ms-transform: translateY(0);
+      transform: translateY(0);
 }
 .portfolio .item-img h6 {
   font-size: 12px;
@@ -505,8 +513,10 @@ p {
   position: relative;
   margin-bottom: 15px;
   -webkit-transform: translateY(-15px);
-          transform: translateY(-15px);
+          -ms-transform: translateY(-15px);
+      transform: translateY(-15px);
   -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .portfolio .item-img .icon i {
@@ -532,10 +542,12 @@ p {
   background: rgba(255, 255, 255, 0.95);
   opacity: 0;
   -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
   z-index: 2;
   -webkit-transform: translateY(10px);
-          transform: translateY(10px);
+          -ms-transform: translateY(10px);
+      transform: translateY(10px);
 }
 
 /* -------------------------------------------------------
@@ -648,6 +660,7 @@ color:#fff;
   background: #f4f4f4;
   border-radius: 50%;
   -webkit-transition: all .5s;
+  -o-transition: all .5s;
   transition: all .5s;
 }
 .contact .info .item h6 {
@@ -806,5 +819,3 @@ footer p {
 /* -------------------------------------------------------
                     End
 -------------------------------------------------------- */
-
-/*# sourceMappingURL=style.css.map */

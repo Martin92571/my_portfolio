@@ -243,6 +243,7 @@ hr{
 	border-color:#b9c4cC;
 	color:#858a95;
 	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
 	transition: all .2s ease-out;
 }
 
@@ -253,7 +254,8 @@ hr{
 .btn-group .btn.active{
 	color:#0DB826;
 	background:#fff;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 
 .btn-group .btn:first-child{
@@ -268,16 +270,20 @@ hr{
 .tab-content{
 	opacity:1;
 	-webkit-transform: translateY(0);
-	transform: translateY(0);
+	-ms-transform: translateY(0);
+	    transform: translateY(0);
 	-webkit-transition:all .3s ease-out;
+	-o-transition:all .3s ease-out;
 	transition:all .3s ease-out;
 }
 
 .tab-content.fadeOut{
 	opacity:0;
 	-webkit-transform: translateY(30px);
-	transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	    transform: translateY(30px);
 	-webkit-transition:none;
+	-o-transition:none;
 	transition:none;
 }
 
@@ -293,6 +299,7 @@ hr{
 
 	overflow: hidden;
 	-webkit-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
 	transition: all .2s ease-in;
 }
 
@@ -302,6 +309,7 @@ hr{
 	font-size: 85px;
 	line-height: 180px;
 	-webkit-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
 	transition: all .3s ease-in;
 
 }
@@ -309,14 +317,17 @@ hr{
 .service-item:hover .fam{
 	font-size: 120px;
 	-webkit-transform:rotate(-15deg);
-	transform:rotate(-10deg);
+	-ms-transform:rotate(-10deg);
+	    transform:rotate(-10deg);
 }
 
 .service-item:hover .service-icon{
 	color:#0DB826;
 	border-color:transparent;
 	font-size: 120px;
-	transform:rotate(-10deg);
+	-webkit-transform:rotate(-10deg);
+	    -ms-transform:rotate(-10deg);
+	        transform:rotate(-10deg);
 }
 
 .service-item h3{
@@ -336,6 +347,7 @@ hr{
 	border-color:#b9c4cC;
 	color:#858a95;
 	-webkit-transition: all .2s ease-out;
+	-o-transition: all .2s ease-out;
 	transition: all .2s ease-out;
 }
 
@@ -346,7 +358,8 @@ hr{
 .btn-group .btn.active{
 	color:#0DB826;
 	background:#fff;
-	box-shadow: none;
+	-webkit-box-shadow: none;
+	        box-shadow: none;
 }
 
 .btn-group .btn:first-child{
@@ -362,16 +375,20 @@ hr{
 .tab-content{
 	opacity:1;
 	-webkit-transform: translateY(0);
-	transform: translateY(0);
+	-ms-transform: translateY(0);
+	    transform: translateY(0);
 	-webkit-transition:all .3s ease-out;
+	-o-transition:all .3s ease-out;
 	transition:all .3s ease-out;
 }
 
 .tab-content.fadeOut{
 	opacity:0;
 	-webkit-transform: translateY(30px);
-	transform: translateY(30px);
+	-ms-transform: translateY(30px);
+	    transform: translateY(30px);
 	-webkit-transition:none;
+	-o-transition:none;
 	transition:none;
 }
 
@@ -1102,6 +1119,7 @@ hr{
 
 #contact .social-links .fa{
 	-webkit-transition:color .15s ease-out;
+	-o-transition:color .15s ease-out;
 	transition:color .15s ease-out;
 }
 
@@ -1119,9 +1137,11 @@ hr{
 	font-size:18px;
 	line-height:24px;
 	font-weight:400;
-	columns: #000000;;
+	-webkit-columns: #000000;
+	        columns: #000000;;
 	z-index: -1;
 	-webkit-transition: all .25s ease-out;
+	-o-transition: all .25s ease-out;
 	transition: all .25s ease-out;
 }
 
@@ -1145,8 +1165,10 @@ hr{
 	border:none;
 	border-radius: 0;
 	border-bottom: 2px solid;
-	box-shadow: none !important;
+	-webkit-box-shadow: none !important;
+	        box-shadow: none !important;
 	-webkit-transition: border .25s ease-out;
+	-o-transition: border .25s ease-out;
 	transition: border .25s ease-out;
 }
 
@@ -1201,6 +1223,7 @@ hr{
 	color:rgba(255,255,255);
 	background: none !important;
 	-webkit-transition: all .15s ease-out;
+	-o-transition: all .15s ease-out;
 	transition: all .15s ease-out;
 	border:none;
 }
@@ -1251,6 +1274,7 @@ hr{
 	color:#abb3ba;
 	text-decoration: none;
 	-webkit-transition:color .2s ease-out;
+	-o-transition:color .2s ease-out;
 	transition:color .2s ease-out;
 }
 
@@ -1295,6 +1319,7 @@ hr{
 .scrollimation.fade-in{
 	opacity:0;
 	-webkit-transition:opacity 1.2s ease-out;
+	-o-transition:opacity 1.2s ease-out;
 	transition:opacity 1.2s ease-out;
 }
 
@@ -1305,17 +1330,19 @@ hr{
 .scrollimation.scale-in{
 	opacity:0;
 	-webkit-transform: scale(0.5);
-	-moz-transform: scale(0.5);
 	-ms-transform: scale(0.5);
 	transform:scale(0.5);
 	-webkit-transition: -webkit-transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
+	-webkit-transition: opacity .6s ease-out, -webkit-transform .6s cubic-bezier(.17,.89,.67,1.57);
+	transition: opacity .6s ease-out, -webkit-transform .6s cubic-bezier(.17,.89,.67,1.57);
+	-o-transition: transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
 	transition: transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out;
+	transition: transform .6s cubic-bezier(.17,.89,.67,1.57), opacity .6s ease-out, -webkit-transform .6s cubic-bezier(.17,.89,.67,1.57);
 }
 
 .scrollimation.scale-in.in{
 	opacity:1;
 	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	transform:scale(1);
 }
@@ -1323,17 +1350,19 @@ hr{
 .scrollimation.fade-right{
 	opacity:0;
 	-webkit-transform: translateX(-60px);
-	-moz-transform: translateX(-60px);
 	-ms-transform: translateX(-60px);
 	transform:translateX(-60px);
 	-webkit-transition: -webkit-transform 1.2s ease-out,opacity 1.2s ease-out;
+	-webkit-transition: opacity 1.2s ease-out,-webkit-transform 1.2s ease-out;
+	transition: opacity 1.2s ease-out,-webkit-transform 1.2s ease-out;
+	-o-transition: transform 1.2s ease-out,opacity 1.2s ease-out;
 	transition: transform 1.2s ease-out,opacity 1.2s ease-out;
+	transition: transform 1.2s ease-out,opacity 1.2s ease-out,-webkit-transform 1.2s ease-out;
 }
 
 .scrollimation.fade-right.in{
 	opacity:1;
 	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
 	-ms-transform: translateX(0px);
 	transform:translateX(0px);
 }
@@ -1341,17 +1370,19 @@ hr{
 .scrollimation.fade-left{
 	opacity:0;
 	-webkit-transform: translateX(60px);
-	-moz-transform: translateX(60px);
 	-ms-transform: translateX(60px);
 	transform:translateX(60px);
 	-webkit-transition: -webkit-transform 1.2s ease-out,opacity 1.2s ease-out;
+	-webkit-transition: opacity 1.2s ease-out,-webkit-transform 1.2s ease-out;
+	transition: opacity 1.2s ease-out,-webkit-transform 1.2s ease-out;
+	-o-transition: transform 1.2s ease-out,opacity 1.2s ease-out;
 	transition: transform 1.2s ease-out,opacity 1.2s ease-out;
+	transition: transform 1.2s ease-out,opacity 1.2s ease-out,-webkit-transform 1.2s ease-out;
 }
 
 .scrollimation.fade-left.in{
 	opacity:1;
 	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
 	-ms-transform: translateX(0px);
 	transform:translateX(0px);
 }
@@ -1359,17 +1390,19 @@ hr{
 .scrollimation.fade-up{
 	opacity:0;
 	-webkit-transform: translateY(60px);
-	-moz-transform: translateY(60px);
 	-ms-transform: translateY(60px);
 	transform:translateY(60px);
 	-webkit-transition: -webkit-transform 1.2s ease-out,opacity 1.2s ease-in;
+	-webkit-transition: opacity 1.2s ease-in-out,-webkit-transform 1.2s ease-out;
+	transition: opacity 1.2s ease-in-out,-webkit-transform 1.2s ease-out;
+	-o-transition: transform 1.2s ease-out,opacity 1.2s ease-in-out;
 	transition: transform 1.2s ease-out,opacity 1.2s ease-in-out;
+	transition: transform 1.2s ease-out,opacity 1.2s ease-in-out,-webkit-transform 1.2s ease-out;
 }
 
 .scrollimation.fade-up.in{
 	opacity:1;
 	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
 }
@@ -1377,35 +1410,45 @@ hr{
 .scrollimation.fade-down{
 	opacity:0;
 	-webkit-transform: translateY(-60px);
-	-moz-transform: translateY(-60px);
 	-ms-transform: translateY(-60px);
 	transform:translateY(-60px);
 	-webkit-transition: -webkit-transform 1.2s ease-out,opacity 1.2s ease-in;
+	-webkit-transition: opacity 1.2s ease-in-out,-webkit-transform 1.2s ease-out;
+	transition: opacity 1.2s ease-in-out,-webkit-transform 1.2s ease-out;
+	-o-transition: transform 1.2s ease-out,opacity 1.2s ease-in-out;
 	transition: transform 1.2s ease-out,opacity 1.2s ease-in-out;
+	transition: transform 1.2s ease-out,opacity 1.2s ease-in-out,-webkit-transform 1.2s ease-out;
 }
 
 .scrollimation.fade-down.in{
 	opacity:1;
 	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
 }
 
 .scrollimation.d1{
-	transition-delay:.3s;
+	-webkit-transition-delay:.3s;
+	     -o-transition-delay:.3s;
+	        transition-delay:.3s;
 }
 
 .scrollimation.d2{
-	transition-delay:.6s;
+	-webkit-transition-delay:.6s;
+	     -o-transition-delay:.6s;
+	        transition-delay:.6s;
 }
 
 .scrollimation.d3{
-	transition-delay:.9s;
+	-webkit-transition-delay:.9s;
+	     -o-transition-delay:.9s;
+	        transition-delay:.9s;
 }
 
 .scrollimation.d4{
-	transition-delay:1.2s;
+	-webkit-transition-delay:1.2s;
+	     -o-transition-delay:1.2s;
+	        transition-delay:1.2s;
 }
 
 .touch .scrollimation.fade-in{
@@ -1415,7 +1458,6 @@ hr{
 .touch .scrollimation.scale-in{
 	opacity:1;
 	-webkit-transform: scale(1);
-	-moz-transform: scale(1);
 	-ms-transform: scale(1);
 	transform:scale(1);
 }
@@ -1423,7 +1465,6 @@ hr{
 .touch .scrollimation.fade-right{
 	opacity:1;
 	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
 	-ms-transform: translateX(0px);
 	transform:translateX(0px);
 }
@@ -1431,7 +1472,6 @@ hr{
 .touch .scrollimation.fade-left{
 	opacity:1;
 	-webkit-transform: translateX(0px);
-	-moz-transform: translateX(0px);
 	-ms-transform: translateX(0px);
 	transform:translateX(0px);
 }
@@ -1439,7 +1479,6 @@ hr{
 .touch .scrollimation.fade-up{
 	opacity:1;
 	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
 }
@@ -1447,7 +1486,6 @@ hr{
 .touch .scrollimation.fade-down{
 	opacity:1;
 	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
 	-ms-transform: translateY(0px);
 	transform:translateY(0px);
 }
@@ -1556,13 +1594,15 @@ hr{
 		font-size: 72px;
 		line-height: 110px;
 		-webkit-transition: all .3s ease-in;
+		-o-transition: all .3s ease-in;
 		transition: all .3s ease-in;
 	}
 
 	.service-item:hover .fam{
 		font-size: 92px;
 		-webkit-transform:rotate(-15deg);
-		transform:rotate(-10deg);
+		-ms-transform:rotate(-10deg);
+		    transform:rotate(-10deg);
 	}
 
 	.skills .plus-symbol:after,
@@ -1832,5 +1872,4 @@ hr{
 	}
 
 }
-
 
