@@ -200,7 +200,7 @@ hr{
 .btn-white:focus{
 	color: #000;
     
-    background-color: rgba(244,244,244);
+    background-color: rgb(244,244,244);
 }
 
 /*-----------------------
@@ -1139,7 +1139,7 @@ hr{
 	font-weight:400;
 	-webkit-columns: #000000;
 	        columns: #000000;;
-	z-index: -1;
+	
 	-webkit-transition: all .25s ease-out;
 	-o-transition: all .25s ease-out;
 	transition: all .25s ease-out;
@@ -1220,7 +1220,7 @@ hr{
 	margin-top: -30px;
 	padding: 0;
 	font-size: 21px;
-	color:rgba(255,255,255);
+	color:rgb(255,255,255);
 	background: none !important;
 	-webkit-transition: all .15s ease-out;
 	-o-transition: all .15s ease-out;
@@ -1257,7 +1257,7 @@ hr{
 	margin-right: 5px;
 }
 #contact .form-control{
-	color:rgba(224,224,224);
+	color:rgb(224,224,224);
 }
 /*----------------------
 ---- Footer Styles  ----

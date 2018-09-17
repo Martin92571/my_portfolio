@@ -93,7 +93,7 @@ $(document).ready(function() {
 		
 			// Callback handler that will be called on failure
 			request.fail(function(jqXHR, textStatus,errorThrown){
-				setTimeout(()=>{
+				setTimeout(function(){
 					$('#contact-form .contact-form-message').remove();
 				$('#contact-form').append('<p style="color:rgb(170, 8, 8);font-weight:700;text-shadow: 0px 0px 5px black;" class="contact-form-message">'+'Failed To Send!'+'</p>');
 				$('#contact-form').removeClass('clicked');
