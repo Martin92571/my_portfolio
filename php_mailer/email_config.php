@@ -1,6 +1,6 @@
 <?php
-define('EMAIL_USER','martinphpserver@gmail.com');
-define('EMAIL_PASS','Caca92571');
-define('EMAIL_USERNAME','Martin Portfolio');
-define('EMAIL_TO_ADDRESS','zegrizo@gmail.com');
+define('EMAIL_USER','Email');
+define('EMAIL_PASS','Email password');
+define('EMAIL_USERNAME','Email username');
+define('EMAIL_TO_ADDRESS','Forward email');
 ?>
